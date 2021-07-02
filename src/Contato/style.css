@@ -1,0 +1,113 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Geneva, Tahoma, sans-serif;
+}
+.header-top{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(228, 222, 222);
+}
+.header-nav li{
+    display: inline-block;
+    padding-top: 5px;
+}
+.header-nav a{
+    color: black;
+    padding: 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color .2s linear;
+}
+.header-nav a:hover{
+    color: rgb(255, 255, 255);
+}
+.header-nav{
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+.logotipo{
+    margin-left: 50px;
+    margin-top: 8px;
+}
+.icon-one{
+    margin-left: 80%;
+}
+.icon-two{
+    margin-left: 8px;
+
+}
+.img-header {
+    position: relative;
+    background-image: url(../img/site-4686908_1920.jpg);
+    height: 240px;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    color: white;
+    text-transform: capitalize;
+    font-size: 45px;
+    box-sizing: border-box;
+}
+.principal-img{
+    position: relative;
+    background-image: url(../img/coffee-792113_1920.jpg);
+    height: 628px;
+    margin-top: 0;
+    background-position: center ;
+    color: rgb(43, 41, 41);
+    font-size: 35px;
+    text-align: center;
+    padding-top: 200px;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+}
+.principal-img h1{
+    position: absolute;
+    top: 0;
+    right: 25%;
+
+}
+.container-article img{
+    padding-left: 135px ;
+    margin: 20px;
+
+}
+.container-article a{
+    position: absolute;
+    right: 570px;
+    top: 220px;
+    text-decoration: none;
+    color: black;
+    transition: color .2s linear;
+}
+.container-article a:hover{
+    color: rgb(92, 91, 91);
+}
+.container-article p{
+    position: absolute;
+    right: 380px;
+    top: 305px;
+    font-size: 20px;
+
+}
+.container-article2{
+    position:absolute;
+    top: 165px;
+    right: 265px;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(77, 77, 77);
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
